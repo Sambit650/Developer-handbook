@@ -2,8 +2,9 @@
 
 [![GitHub license](https://img.shields.io/github/license/Sambit650/git-command)](https://github.com/Sambit650/git-command/blob/main/LICENSE)
 
-# git commands :
 ---------------
+
+# git commands :
 
 * Clone a Project : `git clone <url>`
 * Push local branch to remote : `git push --set-upstream origin <b_name>`
@@ -44,7 +45,7 @@
 <hr>
 
 # Pod Commands :
------------------
+
 * Delete pod files : `pod deintegrate`
 * Install Pod file : `pod install`
 * Update Pod file : `pod update`
@@ -52,7 +53,7 @@
 <hr>
 
 # HTTP Response and Error Codes :
------------------------------------
+
 * 200 - Everything is OK
 * 201 - Created Successfully
 * 202 - Accepted
