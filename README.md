@@ -11,7 +11,8 @@
 * Delete a local branch : `git branch -d <b_name>`
 * Check all branches : `git branch`
 * Switch to other branch : `git checkout <b_name>`
-* Details of all commits : `git log`
+* Repository history : `git log`
+* To See only the commits of a certain author : `git log --author=<author_name>`
 * Check diff : `git diff`
 * Before merging changes, Preview : `git diff <source_branch> <target_branch>`
 * Separate the changes : `git stash / git stash apply` 
