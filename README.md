@@ -40,6 +40,7 @@
   * `git push -f`
 * Remove individual stag file : `git reset <file_name>`
 * Restore all Changes : `git restore .`
+* Release tag : `git tag <tag_name> <commit_id>`
 
 <hr>
 
