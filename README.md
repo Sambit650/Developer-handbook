@@ -13,6 +13,7 @@
 * Switch to other branch : `git checkout <b_name>`
 * Details of all commits : `git log`
 * Check diff : `git diff`
+* Before merging changes, Preview : `git diff <source_branch> <target_branch>`
 * Separate the changes : `git stash / git stash apply` 
 * Back to previous commit : `git reset —-soft HEAD^`
 * Forcefully Back to previous commit : `git reset --hard HEAD^`
