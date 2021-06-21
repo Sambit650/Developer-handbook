@@ -1,7 +1,5 @@
 ## Developer-handbook
 
-[![GitHub license](https://img.shields.io/github/license/Sambit650/git-command)](https://github.com/Sambit650/Developer-handbook/blob/main/LICENSE)
-
 ---------------
 
 # git commands :
