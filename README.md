@@ -1,6 +1,6 @@
 ## Developer-handbook
 
-[![GitHub license](https://img.shields.io/github/license/Sambit650/git-command)](https://github.com/Sambit650/git-command/blob/main/LICENSE)
+[![GitHub license](https://img.shields.io/github/license/Sambit650/git-command)](https://github.com/Sambit650/Developer-handbook/blob/main/LICENSE)
 
 ---------------
 
