@@ -42,6 +42,7 @@
 * Remove individual stag file : `git reset <file_name>`
 * Restore all Changes : `git restore .`
 * Release tag : `git tag <tag_name> <commit_id>`
+* To see the art tree of all the branches : `git log --graph --oneline --decorate --all`
 
 <hr>
 
