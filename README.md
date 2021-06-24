@@ -45,7 +45,7 @@
 * To see the art tree of all the branches : `git log --graph --oneline --decorate --all`
 * Merge two local branches :- `git merge <branch_name>`
 * Abort the Merge :- `git merge --abort`
-* Add particular commit to other branch :- `git cherry-pick <commit_hashcode>`
+* Add any particular commit to a PR/MR :- `git cherry-pick <commit_hashcode>`
 
 <hr>
 
