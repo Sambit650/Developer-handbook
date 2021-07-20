@@ -3,34 +3,71 @@
 👉 **Getting Started** 😄😄😄
 
 ## Git Setup- 
-It is time to setup the **git config**.
+It is time to setup the **git Environment**.
 You should have to do these things only once on any given computer; they’ll stick around between upgrades.
 You can also change them at any time by running through the commands again.
 <br><br>
-🛠 Global git config
+🛠 Global git config:
 ```
 $ git config --global user.name "My Name"
 $ git config --global user.email "myemail@example.com" 
  ```
  <br><br>
- 🛠 Local git config
+ 🛠 Local git config:
  ```
- git config --local user.name "My Name"
- git config --local user.email "myemail@gmail.com"
+$ git config --local user.name "My Name"
+$ git config --local user.email "myemail@gmail.com"
  ```
  <br><br>
-  🛠 Individual git config
+  🛠 Individual git config:
   ```
-  git config user.name "My Name"
-  git config user.email "email@gmail.com"
+ $ git config user.name "My Name"
+ $ git config user.email "email@gmail.com"
   ```
-  
-* Delete git Config : `git rm -rf .git`
-* Check Git Config Details : `git config --list`
+  <br><br>
+    🧐 Check config Details:
+  ```
+ $ git config --list
+  ```
+  <br><br>
+  😡 Delete git config:
+  ```
+ $ git rm -rf .git
+  ```
+<br><br>
+## Cloning an Existing Repository
+If You want to get a copy of an existing Git repository. Follow the below command
+```
+$ git clone <url>
+```
+## Git Branching and Merging
+The git branch command is actually something of a branch management tool. It can list the
+branches you have, create a new branch, delete branches and rename branches.
 
-* Clone a Project : `git clone <url>`
+👉 Git Checkout:
+<br>
+The git checkout command is used to switch branches and check content out into your working
+directory.<br>
+```
+$ git checkout <new_branch_name>
+```
+<br><br>
+👉 Check all existing branches:
+```
+$ git branch
+```
+<br><br>
+👉 Create a new branch:
+```
+$ git branch -b <new_branch_name>
+```
+<br><br>
+👉 
+
+
+
+
 * Push local branch to remote : `git push --set-upstream origin <b_name>`
-* Create and checkout local branch : `git checkout -b <new_branch_name>`
 * Create a local branch : `git branch <new_b_name>`
 * Delete a local branch : `git branch -d <b_name>`
 * Check all branches : `git branch`
