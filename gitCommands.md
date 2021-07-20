@@ -1,6 +1,32 @@
-### Git Commands:
+### Git Commands 🛠
 
-# git commands :
+👉 **Getting Started** 😄😄😄
+
+## Git Setup- 
+It is time to setup the **git config**.
+You should have to do these things only once on any given computer; they’ll stick around between upgrades.
+You can also change them at any time by running through the commands again.
+<br><br>
+🛠 Global git config
+```
+$ git config --global user.name "My Name"
+$ git config --global user.email "myemail@example.com" 
+ ```
+ <br><br>
+ 🛠 Local git config
+ ```
+ git config --local user.name "My Name"
+ git config --local user.email "myemail@gmail.com"
+ ```
+ <br><br>
+  🛠 Individual git config
+  ```
+  git config user.name "My Name"
+  git config user.email "email@gmail.com"
+  ```
+  
+* Delete git Config : `git rm -rf .git`
+* Check Git Config Details : `git config --list`
 
 * Clone a Project : `git clone <url>`
 * Push local branch to remote : `git push --set-upstream origin <b_name>`
@@ -22,14 +48,9 @@
 * Pull : `git pull`
 * Push a branch to remote origin : `git push origin <b_name>`
 * Set Remote origin : `git remote add origin <git_link>`
-* Git Config Global : `git config --global user.name "My Name"`
-  * `git config --global user.email "myemail@example.com"`
-* Git Config Local : `git config --local user.name "My Name"`
-  * `git config --local user.email "myemail@gmail.com"`
-* Git Config for a particular Project : `git config user.name "My Name"`
-  * `git config user.email "email@gmail.com"`
-* Delete git Config : `git rm -rf .git`
-* Check Git Config Details : `git config --list`
+* 
+
+* 
 * Create git ignore file : `touch .gitignore`
 * Add `\`,which file contains Space : `\`
 * Modify most recent commit : `git commit --amend`
