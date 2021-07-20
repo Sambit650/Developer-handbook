@@ -1,12 +1,14 @@
-## Developer-handbook
+# Developer-handbook 🧑‍💻
 
----------------
+## Git - the simple guide 👇
 
-
+* 👉 Just a Simple guide for getting started with git 😄
+* Check Out [Git Documents](https://github.com/Sambit650/Developer-handbook/blob/new-gitCommands/gitCommands.md "For Deatils") 😎
+*
 
 <hr>
 
-# Pod Commands :
+## Pod Commands 👇
 
 * Delete pod files : `pod deintegrate`
 * Install Pod file : `pod install`
@@ -14,7 +16,7 @@
 
 <hr>
 
-# HTTP Response and Error Codes :
+## HTTP Response and Error Codes 👇
 
 * 200 - Everything is OK
 * 201 - Created Successfully
