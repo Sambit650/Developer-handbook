@@ -112,32 +112,119 @@ $ git push origin <branch_name>
 $ git pull
 ```
 <br><br>
-
-
-
-
-
-
-* Repository history : `git log`
-* To See only the commits of a certain author : `git log --author=<author_name>`
-* Check diff : `git diff`
-* Before merging changes, Preview : `git diff <source_branch> <target_branch>`
-* Separate the changes : `git stash / git stash apply` 
-* Back to previous commit : `git reset —-soft HEAD^`
-* Forcefully Back to previous commit : `git reset --hard HEAD^`
+## Staging and Unstaging Files
+👉 Add a file to stage:
+```
+$ git add <file_name>
+```
+<br><br>
+👉 Add all files to stage:
+```
+$ git add .
+```
+<br><br>
+👉 Remove individual file frome stage:
+```
+$ git reset <file_name>
+```
+<br><br>
+👉 Commit:
+```
+$ git commit -m "commit_message"
+```
+<br><br>
+👉 Modify most recent commit message:
+```
+$ git commit --amend
+```
+<br><br>
+😄 Add any particular commit to a PR/MR: 
+```
+$ git cherry-pick <commit_hashcode>
+```
+<br><br>
+👉 Git Reset:
+If you want to remove the last commit from the current branch, But want to keepnthe file changes.
+this command will help you👇
+```
+$ git reset --soft HEAD^
+```
+<br><br>
+If you want to remove the last commit with changes,The changes won't stay in your working tree.
+then blow command will help you👇
+```
+$ git reset --hard HEAD^
+```
+<br><br>
+👉 Delete last commit From remote:
+```
+// remove the commit
+$ git reset --hard HEAD^
+// commit your changes
+$ git commit -m "commit_message"
+// push forcefully
+$ git push -f
+```
+<br><br>
+🦹 Undoing things with git reset
+```
+$ git restore .
+```
+<br><br>
+🦹🏻 Undoing/Revert the changes:
+```
+$ git revert
+```
+<br><br>
+🧑‍💻 Check repository history:
+```
+$ git log
+```
+<br><br>
+🧑‍💻 To see only the commits of a certain author:
+```
+$ git log --author=<author_name>
+```
+<br><br>
+🧑‍💻 Before merging changes, Preview:
+```
+$ git diff
+$ git diff <source_branch> <target_branch>
+```
+<br><br>
+🧑‍💻 Stashing:
+```
+$ git stash
+$ git stash apply
+```
+<br><br>
+🧑‍💻 Release Tag:
+```
+$ git tag <tag_name> <commit_id>
+```
+<br><br>
+🧑‍💻 Create a file with command:
+```
+$ touch <file_name>
+```
+<br><br>
+🧑‍💻 To see the art tree of all the branches:
+```
+$ git log --graph --oneline --decorate --all
+```
+<br><br>
+## Merging 
+🧑‍💻 Merge two local branches: 
+```
+$ git merge <branch_name>
+```
+<br><br>
+🧑‍💻 Abort the merge:
+```
+$ git merge --abort
+```
+<br><br>
 * Save and Quit commit : `:wq`
 * Show hidden list : `ls -la`
-* Create git ignore file : `touch .gitignore`
 * Add `\`,which file contains Space : `\`
-* Modify most recent commit : `git commit --amend`
-* Undoing/Revert the changes : `git revert`
-* Delete the Last commit from remote : `git reset —hard HEAD^`
-  * commit the changes 
-  * `git push -f`
-* Remove individual stag file : `git reset <file_name>`
-* Restore all Changes : `git restore .`
-* Release tag : `git tag <tag_name> <commit_id>`
-* To see the art tree of all the branches : `git log --graph --oneline --decorate --all`
-* Merge two local branches :- `git merge <branch_name>`
-* Abort the Merge :- `git merge --abort`
-* Add any particular commit to a PR/MR :- `git cherry-pick <commit_hashcode>`
+
