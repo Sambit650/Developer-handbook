@@ -40,7 +40,7 @@ If You want to get a copy of an existing Git repository. Follow the below comman
 ```
 $ git clone <url>
 ```
-## Git Branching and Merging
+## Git Branching
 The git branch command is actually something of a branch management tool. It can list the
 branches you have, create a new branch, delete branches and rename branches.
 
@@ -52,6 +52,13 @@ directory.<br>
 $ git checkout <new_branch_name>
 ```
 <br><br>
+👉 Create a new branch and checkout to this branch:
+* This is a smart way to create a branch 😎
+```
+$ git checkout -b <new_branch_name>
+```
+
+<br><br>
 👉 Check all existing branches:
 ```
 $ git branch
@@ -59,19 +66,58 @@ $ git branch
 <br><br>
 👉 Create a new branch:
 ```
-$ git branch -b <new_branch_name>
+$ git branch <new_branch_name>
 ```
 <br><br>
-👉 
+👉 Delete a branch:
+```
+$ git branch -d <b_name>
+```
+<br><br>
+👉 Rename a branch:
+```
+$ git branch -m <old_name> <new_name>
+```
+## Working with Remotes
+To be able to collaborate on any Git project, you need to know how to manage your remote repositories.
+Remote repositories are versions of your project that are hosted on the Internet or network somewhere.
+<br><br>
+👉 Add remote origin:
+```
+$ git remote add origin <git_link>
+```
+<br><br>
+👉 Push a local branch to remote:
+```
+$ git push --set-upstream origin <b_name>
+```
+<br><br>
+👉 Push:
+```
+$ git push
+```
+<br><br>
+👉 Forcefully Push:
+```
+$ git push -f
+```
+<br><br>
+👉 Push  a branch to remote origin:
+```
+$ git push origin <branch_name>
+```
+<br><br>
+👉 Pull:
+```
+$ git pull
+```
+<br><br>
 
 
 
 
-* Push local branch to remote : `git push --set-upstream origin <b_name>`
-* Create a local branch : `git branch <new_b_name>`
-* Delete a local branch : `git branch -d <b_name>`
-* Check all branches : `git branch`
-* Switch to other branch : `git checkout <b_name>`
+
+
 * Repository history : `git log`
 * To See only the commits of a certain author : `git log --author=<author_name>`
 * Check diff : `git diff`
@@ -81,13 +127,6 @@ $ git branch -b <new_branch_name>
 * Forcefully Back to previous commit : `git reset --hard HEAD^`
 * Save and Quit commit : `:wq`
 * Show hidden list : `ls -la`
-* Push : `git push`
-* Pull : `git pull`
-* Push a branch to remote origin : `git push origin <b_name>`
-* Set Remote origin : `git remote add origin <git_link>`
-* 
-
-* 
 * Create git ignore file : `touch .gitignore`
 * Add `\`,which file contains Space : `\`
 * Modify most recent commit : `git commit --amend`
