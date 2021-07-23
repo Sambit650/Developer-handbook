@@ -11,7 +11,7 @@ I’m sure you’re already using these commands as well, if not then you can co
 So you are welcome.....🙏
 
 * 👉 Just a Simple guide for getting started with git 😄
-* Check Out [Git Documents](https://github.com/Sambit650/Developer-handbook/blob/main/gitCommands.md "For Deatils") 😎
+* Check Out [Git Documents](https://github.com/Sambit650/Developer-handbook/blob/main/Docs/gitCommands.md "For Deatils") 😎
 * This covers the basic commands of Git
 
 🦹 **The best way to learn anything is to do it by yourself!**
