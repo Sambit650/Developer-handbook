@@ -78,6 +78,12 @@ $ git branch -d <b_name>
 ```
 $ git branch -m <old_name> <new_name>
 ```
+<br><br>
+👉 Create a new git repository 
+```
+$ git init
+```
+
 ## Working with Remotes
 To be able to collaborate on any Git project, you need to know how to manage your remote repositories.
 Remote repositories are versions of your project that are hosted on the Internet or network somewhere.
