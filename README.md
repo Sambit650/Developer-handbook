@@ -19,4 +19,5 @@ So you are welcome.....🙏
 <hr>
 
 ## HTTP Response and Error Codes 👇
-* Comming
+
+* Check [HTTP Error Status](https://github.com/Sambit650/Developer-handbook/blob/main/Docs/HttpResponse.md "For Deatils") 😎
