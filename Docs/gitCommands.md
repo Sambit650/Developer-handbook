@@ -232,7 +232,7 @@ $ git merge --abort
 <br><br>
 * Save and Quit commit : `:wq`
 * Show hidden list : `ls -la`
-* Add `\`,which file contains Space : `\`
+* Add `\`,which file contains Space
 
 
 #### Credits:
