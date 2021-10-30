@@ -20,7 +20,13 @@ So you are welcome.....🙏
 
 ## HTTP Response and Error Codes 👇
 
-* Check [HTTP Error Status](https://github.com/Sambit650/Developer-handbook/blob/main/Docs/HttpResponse.md "For Deatils") 😎
+🤨 What is HTTP status code❓
+
+🥷 When client’s request to the server, server provide a HTTP (Hypertext Transfer Protocol) response status code, Which allows us to understand what is happening on the back-end of a website, determine what errors need to be fixed.
+<br>All HTTP response status codes are parted into five categories.
+<br>for Details please click on that `HTTP Error Status` link 👇
+
+✳️ Check [HTTP Error Status](https://github.com/Sambit650/Developer-handbook/blob/main/Docs/HttpResponse.md "For Deatils") 😎
 
 <hr>
 
