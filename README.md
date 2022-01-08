@@ -13,7 +13,7 @@ So you are welcome.....🙏
 * 👉 Just a Simple guide for getting started with git 😄
 * Check Out [Git Documents](https://github.com/Sambit650/Developer-handbook/blob/main/Docs/gitCommands.md "For Deatils") 😎
 * This covers the basic commands of Git
-* [Git-QA]((https://github.com/Sambit650/Developer-handbook/blob/main/Docs/gitQA.md "For Deatils"))
+* Check Out [Git-QA](https://github.com/Sambit650/Developer-handbook/blob/main/Docs/gitQA.md "For Deatils")
 
 🦹 **The best way to learn anything is to do it by yourself!**
 
